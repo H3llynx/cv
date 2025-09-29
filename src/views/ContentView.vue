@@ -38,9 +38,9 @@ const cv = computed(() => {
         </span>
       </template>
       <template #heading>{{ cv.certifications.title }}</template>
-      <section>
 
-        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title" class="card">
+      <section>
+        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title">
           <template #heading>{{ cert.title }}</template>
           <template #tags>
             <span class="tag" v-for="tag in cert.info.tags" :key="tag">#{{ tag }}</span>
@@ -53,6 +53,7 @@ const cv = computed(() => {
           </template>
         </CertificationCard>
       </section>
+
     </SectionsCv>
 
     <SectionsCv>
@@ -62,14 +63,15 @@ const cv = computed(() => {
       </template>
       <template #heading>{{ portfolio.title }}</template>
       <section>
-        <PortfolioCard v-for="project in portfolio.content" :key="project.name" class="card">
+        <PortfolioCard v-for="project in portfolio.content" :key="project.name">
           <template #screenshot><img :src="project.screenshot"></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
             <a :href="project.link" class="icon-link" target="_blank" tabindex="0" aria-label="portfolio site">
               <i class="fa-solid fa-link"></i>
             </a>
-            <a :href="project.code" class="icon-link" target="_blank" tabindex="0" aria-label="portfolio code">
+            <a v-if="project.code" :href="project.code" class="icon-link" target="_blank" tabindex="0"
+              aria-label="portfolio code">
               <i class="fa-solid fa-code"></i>
             </a>
           </template>
@@ -91,6 +93,16 @@ const cv = computed(() => {
             experience.company }}
           <p v-if="experience.description"> {{ experience.description }}</p>
         </li>
+      </ul>
+    </SectionsCv>
+
+    <SectionsCv>
+      <template #icon><span class="material-symbols-outlined">
+          responsive_layout
+        </span></template>
+      <template #heading>{{ cv.uxDesignSkills.title }}</template>
+      <ul>
+        <li v-for="tool in cv.uxDesignSkills.content" :key="tool">{{ tool }}</li>
       </ul>
     </SectionsCv>
 
@@ -129,11 +141,22 @@ const cv = computed(() => {
 </template>
 
 <style scoped>
+section::-webkit-scrollbar {
+  height: 6px;
+  background: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+}
+
 section {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-auto-rows: 1fr;
+  grid-auto-flow: column;
+  grid-auto-columns: 260px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   margin: 1rem 0;
 }
 
@@ -226,16 +249,8 @@ img {
 
 @media only screen and (max-width:600px) {
   section {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    grid-auto-columns: 90%;
     padding: 0.5rem 2rem;
-  }
-
-  .card {
-    flex: 0 0 90%;
-    scroll-snap-align: center;
   }
 
   ul {

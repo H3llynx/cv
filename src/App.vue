@@ -122,7 +122,7 @@ nav a {
 
   nav a {
     font-size: 1rem;
-    padding: 0.3rem 0.8rem;
+    padding: 0.8rem;
   }
 }
 </style>

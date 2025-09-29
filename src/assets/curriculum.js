@@ -1,3 +1,4 @@
+import krismerakiScreenshot from './screenshots/krismeraki.png';
 import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
 
@@ -11,6 +12,11 @@ const certifications = {
     link: "https://www.freecodecamp.org/certification/Hellynx/responsive-web-design",
     logo: "fa-brands fa-free-code-camp",
     tags: ["ResponsiveDesign", "HTML5", "CSS3", "WebDesign", "Frontend"]
+  },
+  ux6: {
+    link: "https://coursera.org/share/5ce94f4b4a2ff54fea25212ccc985fd9",
+    logo: "fa-brands fa-google",
+    tags: ["UI Design", "Dynamic User Interfaces", "Responsive Design", "Figma", "Prototyping"]
   },
   ux5: {
     link: "https://coursera.org/share/f687b5db8b0e5dd127b7bb37b8484795",
@@ -70,16 +76,34 @@ export const portfolio = {
         "Interactive Map",
         "Theme Toggle"
       ]
+    },
+    {
+      name: "Kris Meraki",
+      screenshot: krismerakiScreenshot,
+      link: "https://krismeraki.com",
+      tags: [
+        "Wordpress",
+        "Online store",
+        "Payment Gateway Integration",
+        "WordPress Customization"
+      ]
     }
   ]
 };
 
 export const english = {
+  uxDesignSkills: {
+    title: "UX & Design Skills",
+    content: [
+      "Prototypes, wireframes, user flows, mockups",
+      "User research and usability testing"
+    ]
+  },
   toolsAndPlatforms: {
     title: "Supporting tools",
     content: [
-      "Google Workspace & Microsoft Office",
-      "Advanced Excel / Google Sheets",
+      "Google Workspace & Microsoft Office Suite",
+      "Advanced Excel & Google Sheets for data analysis",
       "CRM & help-desk systems (Zendesk, Salesforce, Kustomer)",
       "Remote collaboration: Slack, Zoom"
     ]
@@ -87,10 +111,10 @@ export const english = {
   professionalStrengths: {
     title: "Professional strengths",
     content: [
+      "Detail-oriented",
       "User-focused problem solving",
       "Cross-team collaboration & communication",
       "Project and workflow organization",
-      "Data-driven decision making",
       "Multilingual communication (EN/FR/ES)"
     ]
   },
@@ -161,19 +185,19 @@ export const english = {
         period: "2021 - 2022",
         title: "Customer Service Team Lead",
         company: "Teleperformance Spain & Stripe · Remote (based in Barcelona, Spain)",
-        description: "Managed a customer service team of 9 to 13 agents, overseeing performance and providing coaching."
+        description: "Led a team of 9 to 13 customer service agents, ensuring high performance through coaching, monitoring, and workflow management."
       },
       {
         period: "2021",
         title: "Technical Support Expert for Stripe (French Market)",
         company: "Teleperformance Spain & Stripe · Remote (based in Barcelona, Spain)",
-        description: "Utilized strong problem-solving skills to troubleshoot complex technical issues and ensure B2B customers satisfaction. Technical environment: Stripe."
+        description: "Resolved complex technical issues with strong analytical skills, ensuring high satisfaction levels for B2B clients."
       },
       {
         period: "2020 - 2021",
         title: "Freelance Digital Marketing Consultant",
         company: "Remote",
-        description: "Created targeted lead generation campaigns and designed intuitive landing pages to drive conversions. Additionally, redesigned and implemented a client’s full website, including the setup and configuration of an online shop. Technical environment: Facebook & Instagram Ads, Wordpress, HTML, CSS."
+        description: "Designed targeted lead generation campaigns and intuitive landing pages to boost conversions. Redesigned and launched a client’s full website including e-commerce functionality."
       },
       {
         period: "2019 - 2020",
@@ -182,7 +206,7 @@ export const english = {
       },
       {
         period: "2018 - 2019",
-        title: "See Lion Activities Promoter (On Site)",
+        title: "See Lion Activities Promoter",
         company: "Aspro Parks · Canary Islands"
       },
       {
@@ -207,6 +231,10 @@ export const english = {
       front: {
         title: "Responsive Web Design",
         info: certifications.front
+      },
+      ux6: {
+        title: "Build Dynamic User Interfaces (UI) for Websites",
+        info: certifications.ux6
       },
       ux5: {
         title: "Create High-Fidelity Designs and Prototypes in Figma",
@@ -233,6 +261,13 @@ export const english = {
 };
 
 export const spanish = {
+  uxDesignSkills: {
+    title: "Habilidades UX y de Diseño",
+    content: [
+      "Prototipos, wireframes, flujos de usuario, maquetas",
+      "Investigación de usuarios y pruebas de usabilidad"
+    ]
+  },
   toolsAndPlatforms: {
     title: "Herramientas complementarias",
     content: [
@@ -245,8 +280,7 @@ export const spanish = {
   professionalStrengths: {
     title: "Fortalezas profesionales",
     content: [
-      "Atención al cliente (B2B y B2C)",
-      "Seguimiento y reporte de KPIs",
+      "Orientación al detalle",
       "Colaboración interdepartamental",
       "Optimización de flujos de trabajo",
       "Comunicación multilingüe"
@@ -314,28 +348,28 @@ export const spanish = {
         title: "Atención al Cliente (mercado francés y coleccionables)",
         company: "Catawiki · Remoto (Barcelona)",
         description:
-          "Brindé soporte y asistencia multilingüe a clientes internacionales, gestionando incidencias y consultas en subastas online. Reconocida por productividad y eficiencia."
+          "Atención y soporte multilingüe a clientes internacionales, gestionando incidencias y consultas en subastas online. Reconocida por productividad y eficiencia."
       },
       {
         period: "2021 - 2022",
         title: "Jefa de Equipo de Atención al Cliente",
         company: "Teleperformance España & Stripe · Remoto (Barcelona)",
         description:
-          "Lideré un equipo de 9-13 agentes en el sector fintech, supervisando KPIs y optimizando el rendimiento y la calidad del servicio. Gestión de coaching y formaciones."
+          "Liderazgo de equipo (9-13 agentes) en el sector fintech, seguimiento de KPIs y optimización del rendimiento y calidad del servicio."
       },
       {
         period: "2021",
         title: "Agente de Soporte Técnico (mercado francés)",
         company: "Teleperformance España & Stripe · Remoto (Barcelona)",
         description:
-          "Resolución de incidencias técnicas complejas para clientes B2B, con enfoque en la satisfacción del cliente y mejora continua del servicio. Entorno técnico: Stripe."
+          "Resolución de incidencias técnicas complejas para clientes B2B, con enfoque en la satisfacción del cliente y mejora continua del servicio."
       },
       {
         period: "2020 - 2021",
         title: "Consultora Freelance en Marketing Digital",
         company: "Remoto",
         description:
-          "Creación de campañas de generación de leads y diseño de páginas de destino intuitivas para impulsar conversiones. Rediseño e implementación completa de una web de cliente, incluyendo la configuración de tienda online. Entorno: Facebook & Instagram Ads, WordPress, HTML, CSS."
+          "Creación de campañas de generación de leads y diseño de páginas de destino intuitivas para impulsar conversiones. Rediseño e implementación completa de una web de cliente, incluyendo la configuración de tienda online. "
       },
       {
         period: "2019 - 2020",
@@ -344,7 +378,7 @@ export const spanish = {
       },
       {
         period: "2018 - 2019",
-        title: "Promotora de Actividades con Leones Marinos (Presencial)",
+        title: "Promotora de Actividades con Leones Marinos",
         company: "Aspro Parks · Gran Canaria"
       },
       {
@@ -369,6 +403,10 @@ export const spanish = {
       front: {
         title: "Diseño web responsive",
         info: certifications.front
+      },
+      ux6: {
+        title: "Creación de interfaces de usuario dinámicas para sitios web",
+        info: certifications.ux6
       },
       ux5: {
         title: "Crear diseños y prototipos de alta fidelidad en Figma",
@@ -395,6 +433,13 @@ export const spanish = {
 };
 
 export const french = {
+  uxDesignSkills: {
+    title: "Compétences UX et Design",
+    content: [
+      "Prototypes, wireframes, parcours utilisateur et maquettes",
+      "Recherche utilisateur et tests d’utilisabilité"
+    ]
+  },
   toolsAndPlatforms: {
     title: "Outils complémentaires",
     content: [
@@ -409,8 +454,7 @@ export const french = {
     content: [
       "Résolution de problèmes centrée sur l’utilisateur",
       "Collaboration et communication inter-équipes",
-      "Organisation de projets et de workflows",
-      "Prise de décision basée sur les données",
+      "Leadership et organisation des processus opérationnels",
       "Communication multilingue (EN/FR/ES)"
     ]
   },
@@ -481,19 +525,19 @@ export const french = {
         period: "2021 - 2022",
         title: "Chef d’équipe service clients",
         company: "Teleperformance Spain & Stripe · Télétravail (depuis Barcelone, Espagne)",
-        description: "Gestion d'une équipe de 9 à 13 agents, supervision de la performance et accompagnement/coaching."
+        description: "Management d’équipe, coaching individuel et optimisation de la performance collective."
       },
       {
         period: "2021",
         title: "Expert support technique pour Stripe (Marché français)",
         company: "Teleperformance Spain & Stripe · Télétravail (depuis Barcelone, Espagne)",
-        description: "Traitement et résolution de problèmes techniques complexes, garantissant la satisfaction des clients B2B. Environnement technique : Stripe."
+        description: "Résolution de problèmes techniques complexes, garantissant la satisfaction client B2B"
       },
       {
         period: "2020 - 2021",
         title: "Consultante indépendante en marketing digital",
         company: "Télétravail",
-        description: "Création de campagnes de génération de leads et conception de landing pages intuitives pour maximiser les conversions. Refonte et mise en œuvre complète du site d'un client, incluant la boutique en ligne. Environnement technique : Facebook & Instagram Ads, Wordpress, HTML, CSS."
+        description: "Création de campagnes de génération de leads et conception UX/UI de landing pages pour maximiser les conversions. Refonte et mise en œuvre complète du site d'un client, incluant la boutique en ligne."
       },
       {
         period: "2019 - 2020",
@@ -502,7 +546,7 @@ export const french = {
       },
       {
         period: "2018 - 2019",
-        title: "Animatrice activités otaries (présentiel)",
+        title: "Animatrice activités otaries",
         company: "Aspro Parks · Îles Canaries"
       },
       {
@@ -527,6 +571,10 @@ export const french = {
       front: {
         title: "Web design responsive",
         info: certifications.front
+      },
+      ux6: {
+        title: "Créer des interfaces utilisateurs (UI) dynamiques pour les sites web",
+        info: certifications.ux6
       },
       ux5: {
         title: "Créer des conceptions et des prototypes haute fidélité avec Figma",
