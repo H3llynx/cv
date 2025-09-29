@@ -40,7 +40,7 @@ const cv = computed(() => {
       <template #heading>{{ cv.certifications.title }}</template>
 
       <section>
-        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title">
+        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title" class="card">
           <template #heading>{{ cert.title }}</template>
           <template #tags>
             <span class="tag" v-for="tag in cert.info.tags" :key="tag">#{{ tag }}</span>
@@ -63,7 +63,7 @@ const cv = computed(() => {
       </template>
       <template #heading>{{ portfolio.title }}</template>
       <section>
-        <PortfolioCard v-for="project in portfolio.content" :key="project.name">
+        <PortfolioCard v-for="project in portfolio.content" :key="project.name" class="card">
           <template #screenshot><img :src="project.screenshot"></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
@@ -158,6 +158,11 @@ section {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 1rem 0;
+  padding: 0.8rem;
+}
+
+.card {
+  transition: 0.6s;
 }
 
 p {
@@ -198,7 +203,7 @@ ul {
   -webkit-text-fill-color: var(--color-background);
   background: var(--color-pill);
   border-radius: 2rem;
-  transition: 0.8s;
+  transition: 0.6s;
   padding: 0.4rem 1.2rem;
   font-size: 0.8rem;
   font-weight: 600;
@@ -206,7 +211,7 @@ ul {
   &:hover {
     background: var(--color-heading);
     border-color: transparent;
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 }
 
@@ -245,7 +250,12 @@ img {
   font-size: 1.4rem;
 }
 
+@media (min-width: 1024px) {
+  .card:hover {
+    transform: scale(1.03);
+  }
 
+}
 
 @media only screen and (max-width:600px) {
   section {
