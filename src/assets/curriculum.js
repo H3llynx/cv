@@ -16,17 +16,17 @@ const certifications = {
   ux6: {
     link: "https://coursera.org/share/5ce94f4b4a2ff54fea25212ccc985fd9",
     logo: "fa-brands fa-google",
-    tags: ["UI Design", "Dynamic User Interfaces", "Responsive Design", "Figma", "Prototyping"]
+    tags: ["UI Design", "Dynamic User Interfaces", "Figma", "Prototyping"]
   },
   ux5: {
     link: "https://coursera.org/share/f687b5db8b0e5dd127b7bb37b8484795",
     logo: "fa-brands fa-google",
-    tags: ["UXResearch", "UserExperience", "Wireframing", "Figma", "Prototyping"]
+    tags: ["UserExperience", "Wireframing", "Figma", "Prototyping"]
   },
   ux4: {
     link: "https://coursera.org/share/8019a7e126d4f110e312bb91e79b3c51",
     logo: "fa-brands fa-google",
-    tags: ["UXResearch", "UserTesting", "UserExperience", "Prototyping", "DesignThinking"]
+    tags: ["UserTesting", "UserExperience", "Prototyping", "DesignThinking"]
   },
   ux3: {
     link: "https://coursera.org/share/29701b39320ebbc1c45a96b1bbf9259d",
@@ -41,7 +41,7 @@ const certifications = {
   ux1: {
     link: "https://coursera.org/share/77fa22bce2cbdf6909f8832a3d2828c0",
     logo: "fa-brands fa-google",
-    tags: ["UXFundamentals", "UserExperience", "InteractionDesign", "DesignPrinciples", "Usability"]
+    tags: ["UXFundamentals", "UserExperience", "InteractionDesign", "DesignPrinciples"]
   }
 }
 
