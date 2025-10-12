@@ -3,6 +3,11 @@ import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
 
 const certifications = {
+  ux: {
+    link: "https://coursera.org/share/866573eb7566a3192b173fa335ba610a",
+    logo: "fa-brands fa-google",
+    tags: ["UX Design", "Figma", "Wireframing", "Prototyping", "Web Content Accessibility Guidelines", "Usability Testing"]
+  },
   javascript: {
     link: "https://freecodecamp.org/certification/hellynx/javascript-algorithms-and-data-structures-v8",
     logo: "fa-brands fa-free-code-camp",
@@ -13,36 +18,6 @@ const certifications = {
     logo: "fa-brands fa-free-code-camp",
     tags: ["ResponsiveDesign", "HTML5", "CSS3", "WebDesign", "Frontend"]
   },
-  ux6: {
-    link: "https://coursera.org/share/5ce94f4b4a2ff54fea25212ccc985fd9",
-    logo: "fa-brands fa-google",
-    tags: ["UI Design", "Dynamic User Interfaces", "Figma", "Prototyping"]
-  },
-  ux5: {
-    link: "https://coursera.org/share/f687b5db8b0e5dd127b7bb37b8484795",
-    logo: "fa-brands fa-google",
-    tags: ["UserExperience", "Wireframing", "Figma", "Prototyping"]
-  },
-  ux4: {
-    link: "https://coursera.org/share/8019a7e126d4f110e312bb91e79b3c51",
-    logo: "fa-brands fa-google",
-    tags: ["UserTesting", "UserExperience", "Prototyping", "DesignThinking"]
-  },
-  ux3: {
-    link: "https://coursera.org/share/29701b39320ebbc1c45a96b1bbf9259d",
-    logo: "fa-brands fa-google",
-    tags: ["Wireframing", "Figma", "Prototyping", "UXDesign", "UIUX"]
-  },
-  ux2: {
-    link: "https://coursera.org/share/8bd7d8b82a04d5420f80e349b31e136c",
-    logo: "fa-brands fa-google",
-    tags: ["UXProcess", "EmpathyMapping", "UserCenteredDesign", "Ideation", "ProblemSolving"]
-  },
-  ux1: {
-    link: "https://coursera.org/share/77fa22bce2cbdf6909f8832a3d2828c0",
-    logo: "fa-brands fa-google",
-    tags: ["UXFundamentals", "UserExperience", "InteractionDesign", "DesignPrinciples"]
-  }
 }
 
 export const portfolio = {
@@ -136,19 +111,24 @@ export const english = {
     content: [
       {
         year: "2025",
-        title: "JavaScript Algorithms and Data Structures",
-        institution: "freeCodeCamp",
-      },
-      {
-        year: "2025",
-        title: "Front End Developer Course",
-        institution: "UOC",
+        title: "Front-End Development Bootcamp (React specialization) ",
+        institution: "IT Academy (Barcelona Activa)",
+        status: "in progress"
       },
       {
         year: "2025",
         title: "Google UX Design Professional Certificate",
         institution: "Coursera",
-        status: "in progress"
+      },
+      {
+        year: "2025",
+        title: "JavaScript Algorithms and Data Structures",
+        institution: "freeCodeCamp",
+      },
+      {
+        year: "2025",
+        title: "Front-End Developer Course",
+        institution: "UOC",
       },
       {
         year: "2025",
@@ -224,6 +204,10 @@ export const english = {
   certifications: {
     title: "Digital certifications",
     content: {
+      ux: {
+        title: "Google UX Design",
+        info: certifications.ux
+      },
       javascript: {
         title: "JavaScript Algorithms and Data Structures",
         info: certifications.javascript
@@ -231,30 +215,6 @@ export const english = {
       front: {
         title: "Responsive Web Design",
         info: certifications.front
-      },
-      ux6: {
-        title: "Build Dynamic User Interfaces (UI) for Websites",
-        info: certifications.ux6
-      },
-      ux5: {
-        title: "Create High-Fidelity Designs and Prototypes in Figma",
-        info: certifications.ux5
-      },
-      ux4: {
-        title: "Conduct UX Research and Test Early Concepts",
-        info: certifications.ux4
-      },
-      ux3: {
-        title: "Build Wireframes and Low-Fidelity Prototypes",
-        info: certifications.ux3
-      },
-      ux2: {
-        title: "Start the UX Design Process",
-        info: certifications.ux2
-      },
-      ux1: {
-        title: "Foundations of User Experience",
-        info: certifications.ux1
       }
     }
   }
@@ -304,6 +264,17 @@ export const spanish = {
     content: [
       {
         year: "2025",
+        title: "Bootcamp de Desarrollo Front End (especialización React)",
+        institution: "IT Academy (Barcelona Activa)",
+        status: "en curso"
+      },
+      {
+        year: "2025",
+        title: "Certificado Profesional en Diseño UX de Google",
+        institution: "Coursera",
+      },
+      {
+        year: "2025",
         title: "Algoritmos y Estructuras de Datos en JavaScript",
         institution: "freeCodeCamp",
       },
@@ -311,12 +282,6 @@ export const spanish = {
         year: "2025",
         title: "Front End Developer",
         institution: "UOC"
-      },
-      {
-        year: "2025",
-        title: "Certificado Profesional en Diseño UX de Google",
-        institution: "Coursera",
-        status: "en progreso"
       },
       {
         year: "2025",
@@ -396,6 +361,10 @@ export const spanish = {
   certifications: {
     title: "Certificaciones digitales",
     content: {
+      ux: {
+        title: "Google UX Design",
+        info: certifications.ux
+      },
       javascript: {
         title: "Algoritmos y Estructuras de Datos en JavaScript",
         info: certifications.javascript
@@ -403,30 +372,6 @@ export const spanish = {
       front: {
         title: "Diseño web responsive",
         info: certifications.front
-      },
-      ux6: {
-        title: "Creación de interfaces de usuario dinámicas para sitios web",
-        info: certifications.ux6
-      },
-      ux5: {
-        title: "Crear diseños y prototipos de alta fidelidad en Figma",
-        info: certifications.ux5
-      },
-      ux4: {
-        title: "Realizar investigación UX y probar los primeros conceptos",
-        info: certifications.ux4
-      },
-      ux3: {
-        title: "Crear maquetas funcionales y prototipos de baja fidelidad",
-        info: certifications.ux3
-      },
-      ux2: {
-        title: "Iniciar el proceso de diseño UX: empatizar, definir e idear",
-        info: certifications.ux2
-      },
-      ux1: {
-        title: "Principios fundamentales del diseño de experiencia de usuario (UX)",
-        info: certifications.ux1
       }
     }
   }
@@ -476,6 +421,17 @@ export const french = {
     content: [
       {
         year: "2025",
+        title: "Bootcamp Développement Front-end (spécialisation React)",
+        institution: "IT Academy (Barcelona Activa)",
+        status: "en cours"
+      },
+      {
+        year: "2025",
+        title: "Google Certificat Professionnel: UX Design",
+        institution: "Coursera",
+      },
+      {
+        year: "2025",
         title: "Algorithmes et Structures de Données en JavaScript",
         institution: "freeCodeCamp",
       },
@@ -483,12 +439,6 @@ export const french = {
         year: "2025",
         title: "Formation Développeur Front-End",
         institution: "UOC",
-      },
-      {
-        year: "2025",
-        title: "Google Certificat Professionnel: Conception d'expérience utilisateur",
-        institution: "Coursera",
-        status: "en cours"
       },
       {
         year: "2025",
@@ -564,6 +514,10 @@ export const french = {
   certifications: {
     title: "Certifications numériques",
     content: {
+      ux: {
+        title: "Google UX Design",
+        info: certifications.ux
+      },
       javascript: {
         title: "Algorithmes et Structures de Données en JavaScript",
         info: certifications.javascript
@@ -571,30 +525,6 @@ export const french = {
       front: {
         title: "Web design responsive",
         info: certifications.front
-      },
-      ux6: {
-        title: "Créer des interfaces utilisateurs (UI) dynamiques pour les sites web",
-        info: certifications.ux6
-      },
-      ux5: {
-        title: "Créer des conceptions et des prototypes haute fidélité avec Figma",
-        info: certifications.ux5
-      },
-      ux4: {
-        title: " Réaliser des recherches UX et tester les premiers concepts",
-        info: certifications.ux4
-      },
-      ux3: {
-        title: "Créer des maquettes fonctionnelles et des prototypes basse fidélité",
-        info: certifications.ux3
-      },
-      ux2: {
-        title: "Initier le processus de conception UX : empathie, définition et idéation",
-        info: certifications.ux2
-      },
-      ux1: {
-        title: "Principes fondamentaux de la conception de l’expérience utilisateur (UX)",
-        info: certifications.ux1
       }
     }
   }
