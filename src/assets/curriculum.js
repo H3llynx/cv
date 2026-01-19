@@ -1,4 +1,5 @@
 import krismerakiScreenshot from './screenshots/krismeraki.png';
+import pixappScreenshot from './screenshots/pixapp.png';
 import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
 
@@ -26,7 +27,6 @@ export const portfolio = {
     {
       name: "Relappmidos",
       screenshot: relappmidosScreenshot,
-      link: "https://h3llynx.github.io/Relappmidos/",
       code: "https://github.com/H3llynx/Relappmidos",
       tags: [
         "HTML",
@@ -36,6 +36,18 @@ export const portfolio = {
         "API Integration",
         "Interactive UI",
         "Game Mechanics"
+      ]
+    },
+    {
+      name: "PixApp",
+      screenshot: pixappScreenshot,
+      link: "https://h3llynx.github.io/PixApp/",
+      code: "https://github.com/H3llynx/PixApp",
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Interactive UI"
       ]
     },
     {

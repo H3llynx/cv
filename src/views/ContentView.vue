@@ -67,7 +67,7 @@ const cv = computed(() => {
           <template #screenshot><img :src="project.screenshot"></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
-            <a :href="project.link" class="icon-link" target="_blank" tabindex="0" aria-label="portfolio site">
+            <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0" aria-label="portfolio site">
               <i class="fa-solid fa-link"></i>
             </a>
             <a v-if="project.code" :href="project.code" class="icon-link" target="_blank" tabindex="0"
