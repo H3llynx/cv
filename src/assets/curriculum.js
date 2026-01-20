@@ -2,6 +2,7 @@ import krismerakiScreenshot from './screenshots/krismeraki.png';
 import pixappScreenshot from './screenshots/pixapp.png';
 import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
+import swsScreenshot from './screenshots/sws.png';
 
 const certifications = {
   ux: {
@@ -24,6 +25,18 @@ const certifications = {
 export const portfolio = {
   title: "Portfolio",
   content: [
+    {
+      name: "Sasha Web Services",
+      screenshot: swsScreenshot,
+      link: "https://h3llynx.github.io/6.React",
+      code: "https://github.com/H3llynx/6.React",
+      tags: [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Vitest"
+      ]
+    },
     {
       name: "Relappmidos",
       screenshot: relappmidosScreenshot,
