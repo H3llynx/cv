@@ -2,6 +2,7 @@ import krismerakiScreenshot from './screenshots/krismeraki.png';
 import pixappScreenshot from './screenshots/pixapp.png';
 import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
+import starwarsScreenshot from './screenshots/starwars.png';
 import swsScreenshot from './screenshots/sws.png';
 
 const certifications = {
@@ -25,6 +26,21 @@ const certifications = {
 export const portfolio = {
   title: "Portfolio",
   content: [
+    {
+      name: "Star Wars",
+      screenshot: starwarsScreenshot,
+      link: "https://h3llynx.github.io/7.Star-Wars",
+      code: "https://github.com/H3llynx/7.Star-Wars",
+      tags: [
+        "React",
+        "TypeScript",
+        "Redux",
+        "CSS",
+        "Firebase",
+        "Vitest",
+        "Storybook"
+      ]
+    },
     {
       name: "Sasha Web Services",
       screenshot: swsScreenshot,
