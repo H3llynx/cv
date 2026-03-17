@@ -1,7 +1,9 @@
+import argosScreenshot from './screenshots/argos.png';
 import krismerakiScreenshot from './screenshots/krismeraki.png';
 import pixappScreenshot from './screenshots/pixapp.png';
 import pokedexScreenshot from './screenshots/pokedex.png';
 import relappmidosScreenshot from './screenshots/relappmidos.png';
+import rollerscapeScreenshot from './screenshots/rollerscape.png';
 import starwarsScreenshot from './screenshots/starwars.png';
 import swsScreenshot from './screenshots/sws.png';
 
@@ -26,6 +28,32 @@ const certifications = {
 export const portfolio = {
   title: "Portfolio",
   content: [
+    {
+      name: "RollerScape",
+      screenshot: rollerscapeScreenshot,
+      link: "https://h3llynx.github.io/rollerscape",
+      code: "https://github.com/H3llynx/rollerscape",
+      tags: [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Map & Geolocation",
+        "Spot Finder",
+        "Responsive UI"
+      ]
+    },
+    {
+      name: "Argos",
+      screenshot: argosScreenshot,
+      code: "https://github.com/H3llynx/8.Argos",
+      tags: [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Supabase",
+        "CRUD",
+      ]
+    },
     {
       name: "Star Wars",
       screenshot: starwarsScreenshot,
