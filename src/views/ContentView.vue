@@ -20,40 +20,14 @@ const cv = computed(() => {
   <main>
     <SectionsCv>
       <template #icon><span class="material-symbols-outlined">
-          play_lesson
-        </span>
-      </template>
-      <template #heading>{{ cv.technicalProfessionalTraining.title }}</template>
+          apps
+        </span></template>
+      <template #heading>{{ cv.techSkills.title }}</template>
       <ul class="no-deco">
-        <li v-for="training in cv.technicalProfessionalTraining.content" :key="training">
-          <span class="year">{{ training.year }}</span>: {{ training.title }} - {{ training.institution }} <span
-            class="status" v-if="training.status">({{ training.status }})</span>
+        <li v-for="skill in cv.techSkills.content" :key="skill">
+          <span class="gradient">{{ skill.category }}</span>: {{ skill.skills }}
         </li>
       </ul>
-    </SectionsCv>
-
-    <SectionsCv>
-      <template #icon><span class="material-symbols-outlined">
-          workspace_premium
-        </span>
-      </template>
-      <template #heading>{{ cv.certifications.title }}</template>
-
-      <section>
-        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title" class="card">
-          <template #heading>{{ cert.title }}</template>
-          <template #tags>
-            <span class="tag" v-for="tag in cert.info.tags" :key="tag">#{{ tag }}</span>
-          </template>
-          <template #bottom>
-            <a :href="cert.info.link" target="_blank" class="link" tabindex="0">
-              Certification
-            </a>
-            <i :class="cert.info.logo"></i>
-          </template>
-        </CertificationCard>
-      </section>
-
     </SectionsCv>
 
     <SectionsCv>
@@ -67,7 +41,8 @@ const cv = computed(() => {
           <template #screenshot><img :src="project.screenshot"></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
-            <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0" aria-label="portfolio site">
+            <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0"
+              aria-label="portfolio site">
               <i class="fa-solid fa-link"></i>
             </a>
             <a v-if="project.code" :href="project.code" class="icon-link" target="_blank" tabindex="0"
@@ -84,35 +59,51 @@ const cv = computed(() => {
 
     <SectionsCv>
       <template #icon><span class="material-symbols-outlined">
-          work
-        </span></template>
-      <template #heading>{{ cv.workExperience.title }}</template>
+          play_lesson
+        </span>
+      </template>
+      <template #heading>{{ cv.technicalProfessionalTraining.title }}</template>
       <ul class="no-deco">
-        <li class="xp" v-for="experience in cv.workExperience.content" :key="experience">
-          <span class="year">{{ experience.period }}</span>: <span class="bold">{{ experience.title }}</span> - {{
-            experience.company }}
-          <p v-if="experience.description"> {{ experience.description }}</p>
+        <li v-for="training in cv.technicalProfessionalTraining.content" :key="training">
+          <span class="gradient">{{ training.year }}</span>: {{ training.title }} - {{ training.institution }} <span
+            class="status" v-if="training.status">({{ training.status }})</span>
         </li>
       </ul>
     </SectionsCv>
 
     <SectionsCv>
       <template #icon><span class="material-symbols-outlined">
-          responsive_layout
-        </span></template>
-      <template #heading>{{ cv.uxDesignSkills.title }}</template>
-      <ul>
-        <li v-for="tool in cv.uxDesignSkills.content" :key="tool">{{ tool }}</li>
-      </ul>
+          workspace_premium
+        </span>
+      </template>
+      <template #heading>{{ cv.certifications.title }}</template>
+      <section>
+        <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title" class="card">
+          <template #heading>{{ cert.title }}</template>
+          <template #tags>
+            <span class="tag" v-for="tag in cert.info.tags" :key="tag">#{{ tag }}</span>
+          </template>
+          <template #bottom>
+            <a :href="cert.info.link" target="_blank" class="link" tabindex="0">
+              Certification
+            </a>
+            <i :class="cert.info.logo"></i>
+          </template>
+        </CertificationCard>
+      </section>
     </SectionsCv>
 
     <SectionsCv>
       <template #icon><span class="material-symbols-outlined">
-          apps
+          work
         </span></template>
-      <template #heading>{{ cv.toolsAndPlatforms.title }}</template>
-      <ul>
-        <li v-for="tool in cv.toolsAndPlatforms.content" :key="tool">{{ tool }}</li>
+      <template #heading>{{ cv.workExperience.title }}</template>
+      <ul class="no-deco">
+        <li class="xp" v-for="experience in cv.workExperience.content" :key="experience">
+          <span class="gradient">{{ experience.period }}</span>: <span class="bold">{{ experience.title }}</span> - {{
+            experience.company }}
+          <p v-if="experience.description"> {{ experience.description }}</p>
+        </li>
       </ul>
     </SectionsCv>
 
@@ -133,7 +124,7 @@ const cv = computed(() => {
       <template #heading>{{ cv.formalEducation.title }}</template>
       <ul class="no-deco">
         <li v-for="education in cv.formalEducation.content" :key="education">
-          <span class="year">{{ education.year }}</span>: {{ education.title }}
+          <span class="gradient">{{ education.year }}</span>: {{ education.title }}
         </li>
       </ul>
     </SectionsCv>
@@ -170,7 +161,7 @@ p {
   font-size: 0.9rem;
 }
 
-.year {
+.gradient {
   font-weight: 700;
   background-image: var(--main-gradient);
   background-size: var(--main-gradient-size);

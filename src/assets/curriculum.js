@@ -136,20 +136,25 @@ export const portfolio = {
 };
 
 export const english = {
-  uxDesignSkills: {
-    title: "UX & Design Skills",
+  techSkills: {
+    title: "Technical Skills",
     content: [
-      "Prototypes, wireframes, user flows, mockups",
-      "User research and usability testing"
-    ]
-  },
-  toolsAndPlatforms: {
-    title: "Supporting tools",
-    content: [
-      "Google Workspace & Microsoft Office Suite",
-      "Advanced Excel & Google Sheets for data analysis",
-      "CRM & help-desk systems (Zendesk, Salesforce, Kustomer)",
-      "Remote collaboration: Slack, Zoom"
+      {
+        category: "Languages & Frameworks",
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+      },
+      {
+        category: "Backend & Tools",
+        skills: "REST API, Supabase, Firebase, Python (basics), Git, GitHub, Docker, Vitest, Storybook"
+      },
+      {
+        category: "UX & Design",
+        skills: "Wireframes (Figma), user flows, prototypes, usability testing & research"
+      },
+      {
+        category: "Methodologies",
+        skills: "Scrum / Agile, component-driven development"
+      },
     ]
   },
   professionalStrengths: {
@@ -290,20 +295,25 @@ export const english = {
 };
 
 export const spanish = {
-  uxDesignSkills: {
-    title: "Habilidades UX y de Diseño",
+  techSkills: {
+    title: "Habilidades Técnicas",
     content: [
-      "Prototipos, wireframes, flujos de usuario, maquetas",
-      "Investigación de usuarios y pruebas de usabilidad"
-    ]
-  },
-  toolsAndPlatforms: {
-    title: "Herramientas complementarias",
-    content: [
-      "Google Workspace y Microsoft Office",
-      "Excel avanzado / Google Sheets",
-      "CRM y sistemas de ticketing (Zendesk, Salesforce, Kustomer)",
-      "Colaboración remota: Slack, Zoom"
+      {
+        category: "Lenguajes & Frameworks",
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+      },
+      {
+        category: "Backend & Herramientas",
+        skills: "REST API, Supabase, Firebase, Python (básico), Git, GitHub, Docker, Vitest, Storybook"
+      },
+      {
+        category: "UX & Diseño",
+        skills: "Wireframes (Figma), flujos de usuario, prototipos, pruebas e investigación de usabilidad"
+      },
+      {
+        category: "Metodologías",
+        skills: "Scrum / Agile, desarrollo orientado a componentes"
+      },
     ]
   },
   professionalStrengths: {
@@ -447,20 +457,25 @@ export const spanish = {
 };
 
 export const french = {
-  uxDesignSkills: {
-    title: "Compétences UX et Design",
+  techSkills: {
+    title: "Compétences Techniques",
     content: [
-      "Prototypes, wireframes, parcours utilisateur et maquettes",
-      "Recherche utilisateur et tests d’utilisabilité"
-    ]
-  },
-  toolsAndPlatforms: {
-    title: "Outils complémentaires",
-    content: [
-      "Google Workspace et Microsoft Office",
-      "Excel avancé / Google Sheets",
-      "CRM et systèmes de tickets (Zendesk, Salesforce, Kustomer)",
-      "Collaboration à distance : Slack, Zoom"
+      {
+        category: "Langages & Frameworks",
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+      },
+      {
+        category: "Backend & Outils",
+        skills: "REST API, Supabase, Firebase, Python (bases), Git, GitHub, Docker, Vitest, Storybook"
+      },
+      {
+        category: "UX & Design",
+        skills: "Maquettes (Figma), parcours utilisateur, prototypes, tests & recherche d'utilisabilité"
+      },
+      {
+        category: "Méthodologies",
+        skills: "Scrum / Agile, développement orienté composants"
+      },
     ]
   },
   professionalStrengths: {
