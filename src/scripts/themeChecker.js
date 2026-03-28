@@ -13,7 +13,7 @@ function setTheme(newTheme) {
 }
 
 function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme)
+    document.documentElement.dataset.theme = theme
 }
 
 export function useTheme() {

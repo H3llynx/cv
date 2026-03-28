@@ -15,9 +15,9 @@ watch(
 );
 
 const cv = computed(() => {
-  if (route.params.lang === 'en') { return english }
-  else if (route.params.lang === 'es') { return spanish }
-  else { return french };
+  if (route.params.lang === 'en') return english
+  if (route.params.lang === 'es') return spanish
+  return french;
 }
 );
 </script>
