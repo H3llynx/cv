@@ -1,11 +1,11 @@
-import argosScreenshot from './screenshots/argos.png';
-import krismerakiScreenshot from './screenshots/krismeraki.png';
-import pixappScreenshot from './screenshots/pixapp.png';
-import pokedexScreenshot from './screenshots/pokedex.png';
-import relappmidosScreenshot from './screenshots/relappmidos.png';
-import rollerscapeScreenshot from './screenshots/rollerscape.png';
-import starwarsScreenshot from './screenshots/starwars.png';
-import swsScreenshot from './screenshots/sws.png';
+import argosScreenshot from '../assets/screenshots/argos.png';
+import krismerakiScreenshot from '../assets/screenshots/krismeraki.png';
+import pixappScreenshot from '../assets/screenshots/pixapp.png';
+import pokedexScreenshot from '../assets/screenshots/pokedex.png';
+import relappmidosScreenshot from '../assets/screenshots/relappmidos.png';
+import rollerscapeScreenshot from '../assets/screenshots/rollerscape.png';
+import starwarsScreenshot from '../assets/screenshots/starwars.png';
+import swsScreenshot from '../assets/screenshots/sws.png';
 
 const certifications = {
   ux: {

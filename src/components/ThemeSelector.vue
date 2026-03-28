@@ -1,6 +1,6 @@
 <script setup>
-import { useTheme } from '../assets/themeChecker'
-import ThemeIcon from '../components/icons/ThemeIcon.vue'
+import ThemeIcon from '../components/icons/ThemeIcon.vue';
+import { useTheme } from '../scripts/themeChecker';
 
 const { theme, setTheme } = useTheme()
 

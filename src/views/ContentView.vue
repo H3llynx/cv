@@ -1,19 +1,25 @@
 <script setup>
-import { computed } from 'vue';
+import { computed, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { english, french, portfolio, spanish } from '../assets/curriculum.js';
 import CertificationCard from '../components/CertificationCard.vue';
 import PortfolioCard from '../components/PortfolioCard.vue';
 import SectionsCv from '../components/SectionsCv.vue';
+import { english, french, portfolio, spanish } from '../config/curriculum.js';
 
 const route = useRoute();
+
+watch(
+  () => route.params.lang,
+  (lang) => { document.documentElement.lang = lang },
+  { immediate: true }
+);
+
 const cv = computed(() => {
   if (route.params.lang === 'en') { return english }
   else if (route.params.lang === 'es') { return spanish }
   else { return french };
 }
 );
-
 </script>
 
 <template>
