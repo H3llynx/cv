@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <section>
     <i>
       <slot name="icon"></slot>
     </i>
@@ -9,11 +9,11 @@
       </h3>
       <slot></slot>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
-.item {
+section {
   display: flex;
   position: relative;
   padding: 1.5rem 0;
@@ -45,8 +45,34 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .item {
+  section {
     padding: 2rem 0 2rem calc(var(--section-gap) / 2);
+
+    &::before {
+      content: ' ';
+      border-left: 1px solid var(--color-border);
+      position: absolute;
+      left: 0;
+      bottom: calc(50% + 25px);
+      height: calc(50% - 25px);
+    }
+
+    &::after {
+      content: ' ';
+      border-left: 1px solid var(--color-border);
+      position: absolute;
+      left: 0;
+      top: calc(50% + 25px);
+      height: calc(50% - 25px);
+    }
+
+    &:first-of-type:before {
+      display: none;
+    }
+
+    &:last-of-type:after {
+      display: none;
+    }
   }
 
   i {
@@ -63,39 +89,13 @@ h3 {
     height: 50px;
   }
 
-  .item:before {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
-  }
-
   .details {
     padding: 0 0 0 1rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .item {
+  section {
     display: block;
   }
 

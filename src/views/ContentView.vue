@@ -36,7 +36,7 @@ const cv = computed(() => {
         </span>
       </template>
       <template #heading>{{ portfolio.title }}</template>
-      <section>
+      <ul class="slider">
         <PortfolioCard v-for="project in portfolio.content" :key="project.name" class="card">
           <template #screenshot><img :src="project.screenshot"></template>
           <template #heading>{{ project.name }}</template>
@@ -54,7 +54,7 @@ const cv = computed(() => {
             <span class="tag" v-for="tag in project.tags" :key="tag">#{{ tag }}</span>
           </template>
         </PortfolioCard>
-      </section>
+      </ul>
     </SectionsCv>
 
     <SectionsCv>
@@ -77,7 +77,7 @@ const cv = computed(() => {
         </span>
       </template>
       <template #heading>{{ cv.certifications.title }}</template>
-      <section>
+      <ul class="slider">
         <CertificationCard v-for="cert in cv.certifications.content" :key="cert.title" class="card">
           <template #heading>{{ cert.title }}</template>
           <template #tags>
@@ -90,7 +90,7 @@ const cv = computed(() => {
             <i :class="cert.info.logo"></i>
           </template>
         </CertificationCard>
-      </section>
+      </ul>
     </SectionsCv>
 
     <SectionsCv>
@@ -132,16 +132,7 @@ const cv = computed(() => {
 </template>
 
 <style scoped>
-section::-webkit-scrollbar {
-  height: 6px;
-  background: transparent;
-}
-
-section::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-}
-
-section {
+.slider {
   display: grid;
   gap: 1rem;
   grid-auto-flow: column;
@@ -150,6 +141,15 @@ section {
   -webkit-overflow-scrolling: touch;
   margin: 1rem 0;
   padding: 0.8rem;
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+  }
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    background: transparent;
+  }
 }
 
 .card {
@@ -249,7 +249,7 @@ img {
 }
 
 @media only screen and (max-width:600px) {
-  section {
+  .slider {
     grid-auto-columns: 90%;
     padding: 0.5rem 2rem;
   }
