@@ -21,7 +21,6 @@ const cv = computed(() => {
 }
 );
 </script>
-
 <template>
   <main>
     <SectionsCv>
@@ -44,7 +43,7 @@ const cv = computed(() => {
       <template #heading>{{ portfolio.title }}</template>
       <ul class="slider">
         <PortfolioCard v-for="project in portfolio.content" :key="project.name" class="card">
-          <template #screenshot><img :src="project.screenshot"></template>
+          <template #screenshot><img :src="project.screenshot" alt=""></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
             <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0"
