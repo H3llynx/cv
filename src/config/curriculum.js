@@ -1,6 +1,7 @@
 import argosScreenshot from '../assets/screenshots/argos.png';
 import krismerakiScreenshot from '../assets/screenshots/krismeraki.png';
 import pixappScreenshot from '../assets/screenshots/pixapp.png';
+import pixashScreenshot from '../assets/screenshots/pixash.png';
 import pokedexScreenshot from '../assets/screenshots/pokedex.png';
 import relappmidosScreenshot from '../assets/screenshots/relappmidos.png';
 import rollerscapeScreenshot from '../assets/screenshots/rollerscape.png';
@@ -29,6 +30,19 @@ export const portfolio = {
   title: "Portfolio",
   content: [
     {
+      name: "Pixash [in progress]",
+      screenshot: pixashScreenshot,
+      code: "https://github.com/H3llynx/pixash",
+      tags: [
+        "Vue3",
+        "Composition API",
+        "TypeScript",
+        "TailwindCSS",
+        "Mobile first",
+        "Multi-language"
+      ]
+    },
+    {
       name: "RollerScape",
       screenshot: rollerscapeScreenshot,
       link: "https://h3llynx.github.io/rollerscape",
@@ -38,7 +52,7 @@ export const portfolio = {
         "TypeScript",
         "TailwindCSS",
         "Map & Geolocation",
-        "Spot Finder",
+        "PostgreSQL",
         "Responsive UI"
       ]
     },
@@ -50,6 +64,7 @@ export const portfolio = {
         "React",
         "TypeScript",
         "TailwindCSS",
+        "PostgreSQL",
         "Supabase",
         "CRUD",
       ]
