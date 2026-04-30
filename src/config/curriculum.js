@@ -199,10 +199,15 @@ export const english = {
     title: "Technical & profesional training",
     content: [
       {
+        year: "2025 - 2026",
+        title: "Microcredential in Front-End Development",
+        institution: "Universitat Politècnica de Catalunya",
+        status: "in progress"
+      },
+      {
         year: "2025",
         title: "Front-End Development Bootcamp (React specialization) ",
         institution: "IT Academy (Barcelona Activa)",
-        status: "in progress"
       },
       {
         year: "2025",
@@ -244,6 +249,12 @@ export const english = {
   workExperience: {
     title: "Work experience",
     content: [
+      {
+        period: "2025 - 2026",
+        title: "Front End Developer",
+        company: "Barcelona Activa · Remote (based in Barcelona, Spain)",
+        description: "Contributing to a production monorepo (React 19, TypeScript, PHP backend, Docker), currently developing the Code Connect feature: integrating live backend data and building the project creation flow including routing, backend payload alignment, and new UI components."
+      },
       {
         period: "2022 - 2025",
         title: "Customer Support (French Market & Collectables)",
@@ -357,10 +368,15 @@ export const spanish = {
     title: "Formación profesional complementaria",
     content: [
       {
+        year: "2025 - 2026",
+        title: "Microcredencial en Desarrollo Front-End",
+        institution: "Universitat Politècnica de Catalunya",
+        status: "en curso"
+      },
+      {
         year: "2025",
         title: "Bootcamp de Desarrollo Front End (especialización React)",
         institution: "IT Academy (Barcelona Activa)",
-        status: "en curso"
       },
       {
         year: "2025",
@@ -402,6 +418,12 @@ export const spanish = {
   workExperience: {
     title: "Experiencia laboral",
     content: [
+      {
+        period: "2025 - 2026",
+        title: "Desarrolladora Front-end",
+        company: "Barcelona Activa · Remoto (Barcelone, Espagne)",
+        description: "Contribución a un monorepo en producción (React 19, TypeScript, backend en PHP , Docker), leyendo y trabajando en una base de código activa en un equipo de desarrolladores. Actualmente desarrollando la funcionalidad Code Connect (integración de datos reales del backend, construcción del flujo de creación de proyectos con enrutamiento, alineación de payload y nuevos componentes de UI accesibles)."
+      },
       {
         period: "2022 - 2025",
         title: "Atención al Cliente (mercado francés y coleccionables)",
@@ -519,10 +541,15 @@ export const french = {
     title: "Formation technique et professionnelle",
     content: [
       {
+        year: "2025 - 2026",
+        title: "Microcertification en développement Front-end",
+        institution: "Universitat Politècnica de Catalunya",
+        status: "en cours"
+      },
+      {
         year: "2025",
         title: "Bootcamp Développement Front-end (spécialisation React)",
         institution: "IT Academy (Barcelona Activa)",
-        status: "en cours"
       },
       {
         year: "2025",
@@ -564,6 +591,12 @@ export const french = {
   workExperience: {
     title: "Expérience professionnelle",
     content: [
+      {
+        period: "2025 - 2026",
+        title: "Développeur Front-end",
+        company: "Barcelona Activa · Télétravail (Barcelone, Espagne)",
+        description: "Contribution à un monorepo en production (React 19, TypeScript, backend PHP, Docker). Travail au sein d'une équipe de développeurs sur une base de code active. Diagnostic et résolution d'une désynchronisation de token/authentification entre frontend et API backend, éliminant les erreurs de soumission du formulaire de ressources. Développement actuel de la fonctionnalité Code Connect (intégration de données réelles du backend, construction du flux de création de projets avec routage, alignement des payloads API, création de nouveaux composants UI accessibles)."
+      },
       {
         period: "2022 - 2025",
         title: "Support client (Marché français & objets de collection)",
