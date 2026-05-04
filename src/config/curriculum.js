@@ -12,17 +12,17 @@ const certifications = {
   ux: {
     link: "https://coursera.org/share/866573eb7566a3192b173fa335ba610a",
     logo: "fa-brands fa-google",
-    tags: ["UX Design", "Figma", "Wireframing", "Prototyping", "Web Content Accessibility Guidelines", "Usability Testing"]
+    tags: ["UX Design", "Figma", "Wireframing", "Prototyping", "WCAG", "Usability Testing"]
   },
   javascript: {
     link: "https://freecodecamp.org/certification/hellynx/javascript-algorithms-and-data-structures-v8",
     logo: "fa-brands fa-free-code-camp",
-    tags: ["Javascript", "WebDesign", "Frontend"]
+    tags: ["JavaScript", "Frontend"]
   },
   front: {
     link: "https://www.freecodecamp.org/certification/Hellynx/responsive-web-design",
     logo: "fa-brands fa-free-code-camp",
-    tags: ["ResponsiveDesign", "HTML5", "CSS3", "WebDesign", "Frontend"]
+    tags: ["Responsive Design", "HTML5", "CSS3", "Frontend"]
   },
 }
 
@@ -30,71 +30,44 @@ export const portfolio = {
   title: "Portfolio",
   content: [
     {
-      name: "Pixash [in progress]",
+      name: "Pixash [In Progress]",
       screenshot: pixashScreenshot,
       code: "https://github.com/H3llynx/pixash",
-      tags: [
-        "Vue3",
-        "Composition API",
-        "TypeScript",
-        "TailwindCSS",
-        "Mobile first",
-        "Multi-language"
-      ]
+      tags: ["Vue 3", "TypeScript", "TailwindCSS", "Firebase", "Mobile First", "UX Design"]
     },
     {
       name: "RollerScape",
       screenshot: rollerscapeScreenshot,
       link: "https://h3llynx.github.io/rollerscape",
       code: "https://github.com/H3llynx/rollerscape",
-      tags: [
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "Map & Geolocation",
-        "PostgreSQL",
-        "Responsive UI"
-      ]
+      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "Geolocation API", "Vitest"]
     },
     {
       name: "Argos",
       screenshot: argosScreenshot,
       code: "https://github.com/H3llynx/8.Argos",
-      tags: [
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "PostgreSQL",
-        "Supabase",
-        "CRUD",
-      ]
+      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "CRUD"]
     },
     {
-      name: "Star Wars",
+      name: "Star Wars SPA",
       screenshot: starwarsScreenshot,
       link: "https://h3llynx.github.io/7.Star-Wars",
       code: "https://github.com/H3llynx/7.Star-Wars",
-      tags: [
-        "React",
-        "TypeScript",
-        "Redux",
-        "CSS",
-        "Firebase",
-        "Vitest",
-        "Storybook"
-      ]
+      tags: ["React 19", "TypeScript", "Redux", "Firebase", "Vitest", "Storybook"]
     },
     {
       name: "Sasha Web Services",
       screenshot: swsScreenshot,
       link: "https://h3llynx.github.io/6.React",
       code: "https://github.com/H3llynx/6.React",
-      tags: [
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "Vitest"
-      ]
+      tags: ["React", "TypeScript", "TailwindCSS", "Vitest"]
+    },
+    {
+      name: "Pokedex Vue",
+      screenshot: pokedexScreenshot,
+      link: "https://h3llynx.github.io/pokedex-vue/",
+      code: "https://github.com/H3llynx/pokedex-vue",
+      tags: ["Vue 3", "API Integration", "Multi-View SPA", "Theme Toggle"]
     },
     {
       name: "Relappmidos",
@@ -123,29 +96,10 @@ export const portfolio = {
       ]
     },
     {
-      name: "Pokedex",
-      screenshot: pokedexScreenshot,
-      link: "https://h3llynx.github.io/pokedex-vue/",
-      code: "https://github.com/H3llynx/pokedex-vue",
-      tags: [
-        "Vue",
-        "JavaScript",
-        "API Integration",
-        "Multi-View SPA",
-        "Interactive Map",
-        "Theme Toggle"
-      ]
-    },
-    {
       name: "Kris Meraki",
       screenshot: krismerakiScreenshot,
       link: "https://krismeraki.com",
-      tags: [
-        "Wordpress",
-        "Online store",
-        "Payment Gateway Integration",
-        "WordPress Customization"
-      ]
+      tags: ["WordPress", "E-commerce", "WooCommerce", "Payment Gateway"]
     }
   ]
 };
@@ -156,58 +110,57 @@ export const english = {
     content: [
       {
         category: "Languages & Frameworks",
-        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React 19, Vue 3, Redux, TailwindCSS, Sass"
       },
       {
         category: "Backend & Tools",
-        skills: "REST API, Supabase, Firebase, Python (basics), Git, GitHub, Docker, Vitest, Storybook"
+        skills: "RESTful APIs, Supabase, Firebase, Python (basics), Git, GitHub, Docker, Vitest, Storybook"
       },
       {
         category: "UX & Design",
-        skills: "Wireframes (Figma), user flows, prototypes, usability testing & research"
+        skills: "Wireframes (Figma), User Flows, Prototyping, Usability Testing & Research, WCAG Accessibility"
       },
       {
         category: "Methodologies",
-        skills: "Scrum / Agile, component-driven development"
+        skills: "Scrum / Agile, Component-Driven Architecture, CI/CD basics"
       },
     ]
   },
   professionalStrengths: {
-    title: "Professional strengths",
+    title: "Professional Strengths",
     content: [
-      "Detail-oriented",
+      "Product-minded development",
       "User-focused problem solving",
-      "Cross-team collaboration & communication",
-      "Project and workflow organization",
+      "Cross-team technical communication",
+      "B2B FinTech & E-commerce expertise",
       "Multilingual communication (EN/FR/ES)"
     ]
   },
   formalEducation: {
-    title: "Formal education",
+    title: "Formal Education",
     content: [
-      {
-        year: "2011",
-        title: "Bachelor's Degree in Tourism"
-      },
-      {
-        year: "2009",
-        title: "High School Diploma in Economics and Social Science"
-      }
+      { year: "2011", title: "Bachelor's Degree in Tourism" },
+      { year: "2009", title: "High School Diploma in Economics and Social Science" }
     ]
   },
   technicalProfessionalTraining: {
-    title: "Technical & profesional training",
+    title: "Technical & Professional Training",
     content: [
       {
-        year: "2025 - 2026",
+        year: "2025 - Present",
         title: "Microcredential in Front-End Development",
         institution: "Universitat Politècnica de Catalunya",
-        status: "in progress"
+        status: "In Progress"
       },
       {
         year: "2025",
-        title: "Front-End Development Bootcamp (React specialization) ",
+        title: "Front-End React Specialization Bootcamp",
         institution: "IT Academy (Barcelona Activa)",
+      },
+      {
+        year: "2025",
+        title: "Front-End Development Course",
+        institution: "Universitat Oberta de Catalunya (UOC)",
       },
       {
         year: "2025",
@@ -221,83 +174,59 @@ export const english = {
       },
       {
         year: "2025",
-        title: "Front-End Developer Course",
-        institution: "UOC",
-      },
-      {
-        year: "2025",
         title: "Foundations of Python Programming",
-        institution: "IDFO"
+        institution: "IDFO",
       },
       {
         year: "2025",
-        title: "Responsive Web Design Developer",
+        title: "Responsive web design",
         institution: "freeCodeCamp",
       },
       {
         year: "2021",
-        title: "Application Development for the Internet and Mobile Devices – AF 4 (IFCD017PO)",
+        title: "App Development for Internet & Mobile (IFCD017PO)",
         institution: "Grupo Hedima"
-      },
-      {
-        year: "2020",
-        title: "Social Media Advertising & Marketing Analytics",
-        institution: "ITO"
       }
     ]
   },
   workExperience: {
-    title: "Work experience",
+    title: "Work Experience",
     content: [
       {
-        period: "2025 - 2026",
+        period: "2025 - Present",
         title: "Front End Developer",
-        company: "Barcelona Activa · Remote (based in Barcelona, Spain)",
-        description: "Contributing to a production monorepo (React 19, TypeScript, PHP backend, Docker), currently developing the Code Connect feature: integrating live backend data and building the project creation flow including routing, backend payload alignment, and new UI components."
+        company: "Barcelona Activa · Remote",
+        description: "Contributing to a production-grade monorepo in a Scrum team. Developing 'Code Connect' features: integrating live backend data, building project creation flows with complex routing, and aligning payloads with RESTful PHP APIs."
       },
       {
         period: "2022 - 2025",
         title: "Customer Support (French Market & Collectables)",
-        company: "Catawiki · Remote (based in Barcelona, Spain)",
-        description: "Handled diverse customer inquiries, ensuring timely and effective resolutions, and recognized as a top performer for high productivity."
+        company: "Catawiki · Remote",
+        description: "Managed high-volume technical troubleshooting for a global E-commerce auction platform. Recognized as top performer for quality and efficiency."
       },
       {
         period: "2021 - 2022",
         title: "Customer Service Team Lead",
-        company: "Teleperformance Spain & Stripe · Remote (based in Barcelona, Spain)",
-        description: "Led a team of 9 to 13 customer service agents, ensuring high performance through coaching, monitoring, and workflow management."
+        company: "Teleperformance & Stripe · Remote",
+        description: "Led a team of 13 agents in a high-growth FinTech environment. Developed data-driven metric trackers and localized technical documentation for the French B2B market."
       },
       {
         period: "2021",
-        title: "Technical Support Expert for Stripe (French Market)",
-        company: "Teleperformance Spain & Stripe · Remote (based in Barcelona, Spain)",
-        description: "Resolved complex technical issues with strong analytical skills, ensuring high satisfaction levels for B2B clients."
+        title: "Technical Support Expert for Stripe",
+        company: "Teleperformance & Stripe · Remote",
+        description: "First-line technical support for Stripe's French B2B market. Diagnosed payment/payout flow issues and guided merchants through dashboard configuration, API key setup (test/production environments)."
       },
       {
         period: "2020 - 2021",
-        title: "Freelance Digital Marketing Consultant",
+        title: "Freelance Web & Digital Consultant",
         company: "Remote",
-        description: "Designed targeted lead generation campaigns and intuitive landing pages to boost conversions. Redesigned and launched a client’s full website including e-commerce functionality."
-      },
-      {
-        period: "2019 - 2020",
-        title: "IT Recruitment Consultant",
-        company: "Grupo Norconsulting · Canary Islands"
-      },
-      {
-        period: "2018 - 2019",
-        title: "See Lion Activities Promoter",
-        company: "Aspro Parks · Canary Islands"
-      },
-      {
-        period: "2015 - 2018",
-        title: "Hospitality Service Professional (5* Resort)",
-        company: "Salobre Hotel Resort & Serenity · Canary Islands"
+        description: "Spearheaded the e-commerce transformation of krismeraki.com, integrating full WooCommerce functionality with secure payment gateways."
       },
       {
         period: "2012 - 2014",
-        title: "Online Travel Agent",
-        company: "eDreams (ODIGEO) · Barcelona, Spain"
+        title: "Customer Support (International Markets)",
+        company: "eDreams ODIGEO · Barcelona",
+        description: "Handled high-volume troubleshooting and booking resolution for a global E-commerce leader, utilizing complex internal GDS systems."
       }
     ]
   },
@@ -326,61 +255,61 @@ export const spanish = {
     content: [
       {
         category: "Lenguajes & Frameworks",
-        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React 19, Vue 3, Redux, TailwindCSS, Sass"
       },
       {
         category: "Backend & Herramientas",
-        skills: "REST API, Supabase, Firebase, Python (básico), Git, GitHub, Docker, Vitest, Storybook"
+        skills: "APIs RESTful, Supabase, Firebase, Git, GitHub, Docker, Vitest, Storybook"
       },
       {
         category: "UX & Diseño",
-        skills: "Wireframes (Figma), flujos de usuario, prototipos, pruebas e investigación de usabilidad"
+        skills: "Wireframes (Figma), flujos de usuario, prototipos, pruebas de usabilidad, accesibilidad WCAG"
       },
       {
         category: "Metodologías",
-        skills: "Scrum / Agile, desarrollo orientado a componentes"
+        skills: "Scrum / Agile, arquitectura orientada a componentes, fundamentos de CI/CD"
       },
     ]
   },
   professionalStrengths: {
-    title: "Fortalezas profesionales",
+    title: "Fortalezas Profesionales",
     content: [
-      "Orientación al detalle",
-      "Colaboración interdepartamental",
-      "Optimización de flujos de trabajo",
-      "Comunicación multilingüe"
+      "Desarrollo orientado a producto",
+      "Resolución de problemas centrada en el usuario",
+      "Comunicación técnica interfuncional",
+      "Experiencia en FinTech y E-commerce B2B",
+      "Comunicación multilingüe (EN/FR/ES)"
     ]
   },
   formalEducation: {
-    title: "Formación académica",
+    title: "Formación Académica",
     content: [
-      {
-        year: "2011",
-        title: "Técnico Superior en Turismo"
-      },
-      {
-        year: "2009",
-        title: "Bachillerato en Economía y Ciencias Sociales"
-      }
+      { year: "2011", title: "Grado en Turismo" },
+      { year: "2009", title: "Bachillerato en Economía y Ciencias Sociales" }
     ]
   },
   technicalProfessionalTraining: {
-    title: "Formación profesional complementaria",
+    title: "Formación Técnica",
     content: [
       {
-        year: "2025 - 2026",
+        year: "2025 - Presente",
         title: "Microcredencial en Desarrollo Front-End",
         institution: "Universitat Politècnica de Catalunya",
-        status: "en curso"
+        status: "En curso"
       },
       {
         year: "2025",
-        title: "Bootcamp de Desarrollo Front End (especialización React)",
+        title: "Bootcamp de Especialización en React",
         institution: "IT Academy (Barcelona Activa)",
       },
       {
         year: "2025",
-        title: "Certificado Profesional en Diseño UX de Google",
+        title: "Curso de Desarrollador Front-End",
+        institution: "Universitat Oberta de Catalunya (UOC)",
+      },
+      {
+        year: "2025",
+        title: "Certificado Profesional de Diseño UX de Google",
         institution: "Coursera",
       },
       {
@@ -390,13 +319,8 @@ export const spanish = {
       },
       {
         year: "2025",
-        title: "Front End Developer",
-        institution: "UOC"
-      },
-      {
-        year: "2025",
         title: "Fundamentos de Programación en Python",
-        institution: "IDFO"
+        institution: "IDFO",
       },
       {
         year: "2025",
@@ -405,72 +329,49 @@ export const spanish = {
       },
       {
         year: "2021",
-        title: "Desarrollo de aplicaciones para internet y dispositivos móviles – AF 4 (IFCD017PO)",
+        title: "Desarrollo de Aplicaciones para Internet y Móviles (IFCD017PO)",
         institution: "Grupo Hedima"
-      },
-      {
-        year: "2020",
-        title: "Publicidad en Redes Sociales y Análisis de Marketing",
-        institution: "ITO"
       }
     ]
   },
   workExperience: {
-    title: "Experiencia laboral",
+    title: "Experiencia Laboral",
     content: [
       {
-        period: "2025 - 2026",
-        title: "Desarrolladora Front-end",
-        company: "Barcelona Activa · Remoto (Barcelone, Espagne)",
-        description: "Contribución a un monorepo en producción (React 19, TypeScript, backend en PHP , Docker), leyendo y trabajando en una base de código activa en un equipo de desarrolladores. Actualmente desarrollando la funcionalidad Code Connect (integración de datos reales del backend, construcción del flujo de creación de proyectos con enrutamiento, alineación de payload y nuevos componentes de UI accesibles)."
+        period: "2025 - Presente",
+        title: "Desarrolladora Front-End",
+        company: "Barcelona Activa · Remoto",
+        description: "Contribución a un monorepo en producción bajo metodología Scrum. Desarrollo de funcionalidades 'Code Connect': integración de datos reales, flujos de creación con enrutamiento complejo y alineación de payloads con APIs PHP RESTful."
       },
       {
         period: "2022 - 2025",
-        title: "Atención al Cliente (mercado francés y coleccionables)",
-        company: "Catawiki · Remoto (Barcelona)",
-        description:
-          "Atención y soporte multilingüe a clientes internacionales, gestionando incidencias y consultas en subastas online. Reconocida por productividad y eficiencia."
+        title: "Atención al Cliente (Mercado Francés)",
+        company: "Catawiki · Remoto",
+        description: "Gestión de incidencias técnicas en una plataforma líder de subastas E-commerce. Reconocida por alta productividad y eficiencia en la resolución de problemas complejos."
       },
       {
         period: "2021 - 2022",
-        title: "Jefa de Equipo de Atención al Cliente",
-        company: "Teleperformance España & Stripe · Remoto (Barcelona)",
-        description:
-          "Liderazgo de equipo (9-13 agentes) en el sector fintech, seguimiento de KPIs y optimización del rendimiento y calidad del servicio."
+        title: "Team Lead de Atención al Cliente (Stripe)",
+        company: "Teleperformance & Stripe · Remoto",
+        description: "Liderazgo de equipo (13 agentes) en entorno FinTech. Creación de dashboards de métricas y localización de la base de conocimientos técnicos para el mercado francés."
       },
       {
         period: "2021",
-        title: "Agente de Soporte Técnico (mercado francés)",
-        company: "Teleperformance España & Stripe · Remoto (Barcelona)",
-        description:
-          "Resolución de incidencias técnicas complejas para clientes B2B, con enfoque en la satisfacción del cliente y mejora continua del servicio."
+        title: "Experta en Soporte Técnico (Stripe)",
+        company: "Teleperformance & Stripe · Remoto",
+        description: "Consultora técnica B2B. Diagnóstico de flujos de pago, configuración de claves API (Test/Prod) y gestión de escalaciones técnicas para fallos de integración."
       },
       {
         period: "2020 - 2021",
         title: "Consultora Freelance en Marketing Digital",
         company: "Remoto",
-        description:
-          "Creación de campañas de generación de leads y diseño de páginas de destino intuitivas para impulsar conversiones. Rediseño e implementación completa de una web de cliente, incluyendo la configuración de tienda online. "
-      },
-      {
-        period: "2019 - 2020",
-        title: "Consultora de Reclutamiento IT",
-        company: "Grupo Norconsulting · Gran Canaria"
-      },
-      {
-        period: "2018 - 2019",
-        title: "Promotora de Actividades con Leones Marinos",
-        company: "Aspro Parks · Gran Canaria"
-      },
-      {
-        period: "2015 - 2018",
-        title: "Profesional de Atención en Hostelería (Resort 5*)",
-        company: "Salobre Hotel Resort & Serenity · Gran Canaria"
+        description: "Lanzamiento de campañas de generación de leads en plataformas Meta. Diseño de landing pages responsive enfocadas en la optimización del túnel de conversión. Lideré la transformación e-commerce de krismeraki.com (WordPress), incluyendo UX, configuración del CMS e integración de pago."
       },
       {
         period: "2012 - 2014",
-        title: "Agente de Viaje Online",
-        company: "eDreams (ODIGEO) · Barcelona"
+        title: "Atención al Cliente (Mercados Internacionales)",
+        company: "eDreams ODIGEO · Barcelona",
+        description: "Resolución de incidencias técnicas y reservas para un líder global de E-commerce, utilizando sistemas GDS complejos en un entorno dinámico."
       }
     ]
   },
@@ -499,61 +400,61 @@ export const french = {
     content: [
       {
         category: "Langages & Frameworks",
-        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue.js, Redux, TailwindCSS, Sass"
+        skills: "HTML5, CSS3, JavaScript (ES6+), TypeScript, React 19, Vue 3, Redux, TailwindCSS, Sass"
       },
       {
         category: "Backend & Outils",
-        skills: "REST API, Supabase, Firebase, Python (bases), Git, GitHub, Docker, Vitest, Storybook"
+        skills: "APIs RESTful, Supabase, Firebase, Git, GitHub, Docker, Vitest, Storybook"
       },
       {
         category: "UX & Design",
-        skills: "Maquettes (Figma), parcours utilisateur, prototypes, tests & recherche d'utilisabilité"
+        skills: "Maquettes (Figma), parcours utilisateur, prototypes, tests d'utilisabilité, accessibilité WCAG"
       },
       {
         category: "Méthodologies",
-        skills: "Scrum / Agile, développement orienté composants"
+        skills: "Scrum / Agile, architecture orientée composants, bases CI/CD"
       },
     ]
   },
   professionalStrengths: {
-    title: "Atouts professionnels",
+    title: "Atouts Professionnels",
     content: [
-      "Résolution de problèmes centrée sur l’utilisateur",
-      "Collaboration et communication inter-équipes",
-      "Leadership et organisation des processus opérationnels",
+      "Développement orienté produit",
+      "Résolution de problèmes centrée utilisateur",
+      "Communication technique inter-équipes",
+      "Expertise FinTech & E-commerce B2B",
       "Communication multilingue (EN/FR/ES)"
     ]
   },
   formalEducation: {
-    title: "Formation académique",
+    title: "Formation Académique",
     content: [
-      {
-        year: "2011",
-        title: "BTS Ventes et productions tourisriques"
-      },
-      {
-        year: "2009",
-        title: "Baccalauréat Économique et Social"
-      }
+      { year: "2011", title: "BTS Ventes et Productions Touristiques" },
+      { year: "2009", title: "Baccalauréat Économique et Social" }
     ]
   },
   technicalProfessionalTraining: {
-    title: "Formation technique et professionnelle",
+    title: "Formation Technique",
     content: [
       {
-        year: "2025 - 2026",
-        title: "Microcertification en développement Front-end",
+        year: "2025 - Présent",
+        title: "Micro-certification en Développement Front-End",
         institution: "Universitat Politècnica de Catalunya",
-        status: "en cours"
+        status: "En cours"
       },
       {
         year: "2025",
-        title: "Bootcamp Développement Front-end (spécialisation React)",
+        title: "Bootcamp Spécialisation React",
         institution: "IT Academy (Barcelona Activa)",
       },
       {
         year: "2025",
-        title: "Google Certificat Professionnel: UX Design",
+        title: "Formation Développeur Front-End",
+        institution: "Universitat Oberta de Catalunya (UOC)",
+      },
+      {
+        year: "2025",
+        title: "Google Certificat Professionnel : UX Design",
         institution: "Coursera",
       },
       {
@@ -563,13 +464,8 @@ export const french = {
       },
       {
         year: "2025",
-        title: "Formation Développeur Front-End",
-        institution: "UOC",
-      },
-      {
-        year: "2025",
-        title: "Bases de la programmation Python",
-        institution: "IDFO"
+        title: "Bases de la Programmation Python",
+        institution: "IDFO",
       },
       {
         year: "2025",
@@ -578,68 +474,49 @@ export const french = {
       },
       {
         year: "2021",
-        title: "Développement d’applications web et mobiles – AF 4 (IFCD017PO)",
+        title: "Développement d’Applications Web et Mobiles (IFCD017PO)",
         institution: "Grupo Hedima"
-      },
-      {
-        year: "2020",
-        title: "Publicité sur les réseaux sociaux & analyse marketing",
-        institution: "ITO"
       }
     ]
   },
   workExperience: {
-    title: "Expérience professionnelle",
+    title: "Expérience Professionnelle",
     content: [
       {
-        period: "2025 - 2026",
-        title: "Développeur Front-end",
-        company: "Barcelona Activa · Télétravail (Barcelone, Espagne)",
-        description: "Contribution à un monorepo en production (React 19, TypeScript, backend PHP, Docker). Travail au sein d'une équipe de développeurs sur une base de code active. Diagnostic et résolution d'une désynchronisation de token/authentification entre frontend et API backend, éliminant les erreurs de soumission du formulaire de ressources. Développement actuel de la fonctionnalité Code Connect (intégration de données réelles du backend, construction du flux de création de projets avec routage, alignement des payloads API, création de nouveaux composants UI accessibles)."
+        period: "2025 - Présent",
+        title: "Développeuse Front-End",
+        company: "Barcelona Activa · Télétravail",
+        description: "Contribution à un monorepo en production au sein d'une équipe Scrum. Développement de fonctionnalités 'Code Connect' : intégration de données réelles, flux de création avec routage complexe et alignement des payloads avec des APIs PHP RESTful."
       },
       {
         period: "2022 - 2025",
-        title: "Support client (Marché français & objets de collection)",
-        company: "Catawiki · Télétravail (depuis Barcelone, Espagne)",
-        description: "Traitement de diverses demandes clients, garantissant des solutions rapides et efficaces. Reconnue parmi les meilleurs performeurs de mon équipe."
+        title: "Support Client (Marché Français & Objets de Collection)",
+        company: "Catawiki · Télétravail",
+        description: "Gestion des incidents techniques pour une plateforme d'enchères E-commerce internationale. Reconnue pour la qualité et l'efficacité dans la résolution des demandes des utilisateurs."
       },
       {
         period: "2021 - 2022",
-        title: "Chef d’équipe service clients",
-        company: "Teleperformance Spain & Stripe · Télétravail (depuis Barcelone, Espagne)",
-        description: "Management d’équipe, coaching individuel et optimisation de la performance collective."
+        title: "Chef d’Équipe Service Clients (Stripe)",
+        company: "Teleperformance & Stripe · Télétravail",
+        description: "Management d'une équipe de 13 agents en environnement FinTech. Création d'outils de suivi de performance et localisation de la base de connaissances techniques pour le marché français."
       },
       {
         period: "2021",
-        title: "Expert support technique pour Stripe (Marché français)",
-        company: "Teleperformance Spain & Stripe · Télétravail (depuis Barcelone, Espagne)",
-        description: "Résolution de problèmes techniques complexes, garantissant la satisfaction client B2B"
+        title: "Experte Support Technique (Stripe)",
+        company: "Teleperformance & Stripe · Télétravail",
+        description: "Consultante technique B2B. Diagnostic des flux de paiement, configuration des clés API (Test/Prod) et gestion des escalades techniques pour les échecs d'intégration."
       },
       {
         period: "2020 - 2021",
-        title: "Consultante indépendante en marketing digital",
+        title: "Consultante Indépendante en Marketing Digital",
         company: "Télétravail",
-        description: "Création de campagnes de génération de leads et conception UX/UI de landing pages pour maximiser les conversions. Refonte et mise en œuvre complète du site d'un client, incluant la boutique en ligne."
-      },
-      {
-        period: "2019 - 2020",
-        title: "Consultante en recrutement IT",
-        company: "Grupo Norconsulting · Îles Canaries"
-      },
-      {
-        period: "2018 - 2019",
-        title: "Animatrice activités otaries",
-        company: "Aspro Parks · Îles Canaries"
-      },
-      {
-        period: "2015 - 2018",
-        title: "Professionnelle de l’hôtellerie (Resort 5*)",
-        company: "Salobre Hotel Resort & Serenity · Îles Canaries"
+        description: "Réalisation de campagnes publicitaires sur les réseaux sociaux. Conception de landing pages responsive axées sur l'optimisation du tunnel de conversion. Pilotage de la transformation e-commerce de krismeraki.com (Wordpress): optimisation visuelle du site et intégration de la solution WooCommerce avec passerelles de paiement sécurisées."
       },
       {
         period: "2012 - 2014",
-        title: "Agent de voyages en ligne",
-        company: "eDreams (ODIGEO) · Barcelone, Espagne"
+        title: "Agent de Voyages en Ligne",
+        company: "eDreams ODIGEO · Barcelone",
+        description: "Résolution d'incidents techniques et de réservations pour un leader mondial de l'E-commerce. GDS utilisés: Amadeus, Galileo"
       }
     ]
   },
@@ -661,3 +538,4 @@ export const french = {
     }
   }
 };
+
