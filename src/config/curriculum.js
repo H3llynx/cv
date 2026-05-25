@@ -223,6 +223,12 @@ export const english = {
         description: "Spearheaded the e-commerce transformation of krismeraki.com, integrating full WooCommerce functionality with secure payment gateways."
       },
       {
+        period: "2014 - 2015",
+        title: "Freelance Web Developer — Independent Projects",
+        company: "Remote",
+        description: "Designed and built multiple responsive websites and web templates in HTML/CSS, including client projects for sports professionals and personal projects. Also developed PrestaShop e-commerce projects, focusing on layout, mobile usability, and user-friendly navigation."
+      },
+      {
         period: "2012 - 2014",
         title: "Customer Support (International Markets)",
         company: "eDreams ODIGEO · Barcelona",
@@ -368,6 +374,12 @@ export const spanish = {
         description: "Lanzamiento de campañas de generación de leads en plataformas Meta. Diseño de landing pages responsive enfocadas en la optimización del túnel de conversión. Lideré la transformación e-commerce de krismeraki.com (WordPress), incluyendo UX, configuración del CMS e integración de pago."
       },
       {
+        period: "2014 - 2015",
+        title: "Diseñadora Web Freelance - Proyectos Independientes",
+        company: "Remoto",
+        description: "Diseño y desarrollo de múltiples sitios web y plantillas responsive en HTML y CSS, incluyendo proyectos para clientes del ámbito deportivo y proyectos personales. Desarrollo de proyectos e-commerce en PrestaShop, con enfoque en la estructura visual, la usabilidad móvil y la configuración básica de la tienda."
+      },
+      {
         period: "2012 - 2014",
         title: "Atención al Cliente (Mercados Internacionales)",
         company: "eDreams ODIGEO · Barcelona",
@@ -511,6 +523,12 @@ export const french = {
         title: "Consultante Indépendante en Marketing Digital",
         company: "Télétravail",
         description: "Réalisation de campagnes publicitaires sur les réseaux sociaux. Conception de landing pages responsive axées sur l'optimisation du tunnel de conversion. Pilotage de la transformation e-commerce de krismeraki.com (Wordpress): optimisation visuelle du site et intégration de la solution WooCommerce avec passerelles de paiement sécurisées."
+      },
+      {
+        period: "2014 - 2015",
+        title: "Designer Web Freelance - Projets Indépendants",
+        company: "Télétravail",
+        description: "Conception et développement de plusieurs sites web et templates responsives en HTML et CSS, incluant des projets pour des clients du domaine sportif ainsi que des projets personnels. Développement de projets e-commerce sous PrestaShop, avec un focus sur la structure visuelle, l’ergonomie mobile et la configuration de base de la boutique."
       },
       {
         period: "2012 - 2014",
