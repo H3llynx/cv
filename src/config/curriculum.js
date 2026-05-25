@@ -1,4 +1,5 @@
 import argosScreenshot from '../assets/screenshots/argos.png';
+import HappyPetScreenshot from '../assets/screenshots/happypet.png';
 import krismerakiScreenshot from '../assets/screenshots/krismeraki.png';
 import pixappScreenshot from '../assets/screenshots/pixapp.png';
 import pixashScreenshot from '../assets/screenshots/pixash.png';
@@ -40,34 +41,34 @@ export const portfolio = {
       screenshot: rollerscapeScreenshot,
       link: "https://h3llynx.github.io/rollerscape",
       code: "https://github.com/H3llynx/rollerscape",
-      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "Geolocation API", "Vitest"]
+      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "Geolocation API", "Responsive UI"]
     },
     {
       name: "Argos",
       screenshot: argosScreenshot,
       code: "https://github.com/H3llynx/8.Argos",
-      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "CRUD"]
+      tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "CRUD", "Responsive UI"]
     },
     {
       name: "Star Wars SPA",
       screenshot: starwarsScreenshot,
       link: "https://h3llynx.github.io/7.Star-Wars",
       code: "https://github.com/H3llynx/7.Star-Wars",
-      tags: ["React 19", "TypeScript", "Redux", "Firebase", "Vitest", "Storybook"]
+      tags: ["React 19", "TypeScript", "Redux", "Firebase", "Responsive UI"]
     },
     {
       name: "Sasha Web Services",
       screenshot: swsScreenshot,
       link: "https://h3llynx.github.io/6.React",
       code: "https://github.com/H3llynx/6.React",
-      tags: ["React", "TypeScript", "TailwindCSS", "Vitest"]
+      tags: ["React", "TypeScript", "TailwindCSS", "Responsive UI"]
     },
     {
       name: "Pokedex Vue",
       screenshot: pokedexScreenshot,
       link: "https://h3llynx.github.io/pokedex-vue/",
       code: "https://github.com/H3llynx/pokedex-vue",
-      tags: ["Vue 3", "API Integration", "Multi-View SPA", "Theme Toggle"]
+      tags: ["Vue 3", "API Integration", "Multi-View SPA", "Theme Toggle", "Responsive UI"]
     },
     {
       name: "Relappmidos",
@@ -92,14 +93,20 @@ export const portfolio = {
         "HTML",
         "CSS",
         "JavaScript",
-        "Interactive UI"
+        "Interactive UI",
+        "Responsive UI"
       ]
     },
     {
       name: "Kris Meraki",
       screenshot: krismerakiScreenshot,
       link: "https://krismeraki.com",
-      tags: ["WordPress", "E-commerce", "WooCommerce", "Payment Gateway"]
+      tags: ["WordPress", "E-commerce", "WooCommerce", "Payment Gateway", "Responsive UI"]
+    },
+    {
+      name: "Happy Pet",
+      screenshot: HappyPetScreenshot,
+      tags: ["WordPress", "Elementor", "Landing page", "Responsive UI"]
     }
   ]
 };
