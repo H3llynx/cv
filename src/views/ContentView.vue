@@ -48,11 +48,11 @@ const cv = computed(() => {
           <template #links>
             <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0"
               aria-label="portfolio site">
-              <i class="fa-solid fa-link"></i>
+              <span :style="{ fontSize: '11px' }">🔗</span>
             </a>
             <a v-if="project.code" :href="project.code" class="icon-link" target="_blank" tabindex="0"
               aria-label="portfolio code">
-              <i class="fa-solid fa-code"></i>
+              <span :style="{ fontWeight: '600', fontSize: '15px', fontFamily: 'system-ui' }">&lt;/&gt;</span>
             </a>
           </template>
           <template #tags>
@@ -242,8 +242,7 @@ img {
 
 .icon-link:hover,
 .icon-link:focus-visible {
-  border: 0;
-  font-size: 1.4rem;
+  background-image: linear-gradient(90deg, var(--color-text))
 }
 
 @media (min-width: 1024px) {
