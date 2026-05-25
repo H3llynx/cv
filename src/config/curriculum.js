@@ -196,7 +196,7 @@ export const english = {
         period: "2025 - Present",
         title: "Front End Developer",
         company: "Barcelona Activa · Remote",
-        description: "Contributing to a production-grade monorepo in a Scrum team. Developing 'Code Connect' features: integrating live backend data, building project creation flows with complex routing, and aligning payloads with RESTful PHP APIs."
+        description: "Frontend development for a knowledge sharing application following Agile (SCRUM) methodologies. New features development, API integration and creation of accessible UI components compliant with basic accessibility best practices, implementing frontend–backend integrations, aligning request/response payloads with PHP REST APIs. Stack: React 19, TypeScript, TailwindCSS, Context API, REST API, Vitest, Docker, Figma"
       },
       {
         period: "2022 - 2025",
@@ -341,7 +341,7 @@ export const spanish = {
         period: "2025 - Presente",
         title: "Desarrolladora Front-End",
         company: "Barcelona Activa · Remoto",
-        description: "Contribución a un monorepo en producción bajo metodología Scrum. Desarrollo de funcionalidades 'Code Connect': integración de datos reales, flujos de creación con enrutamiento complejo y alineación de payloads con APIs PHP RESTful."
+        description: "Desarrollo frontend para una aplicación de intercambio de conocimiento siguiendo metodologías ágiles (SCRUM). Desarrollo de nuevas funcionalidades, integración de APIs y creación de componentes de UI accesibles cumpliendo con buenas prácticas básicas de accesibilidad. Implementación de integraciones frontend–backend, alineando los payloads de solicitudes y respuestas con APIs REST en PHP. Stack: React 19, TypeScript, TailwindCSS, Context API, REST API, Vitest, Docker, Figma."
       },
       {
         period: "2022 - 2025",
@@ -486,7 +486,7 @@ export const french = {
         period: "2025 - Présent",
         title: "Développeuse Front-End",
         company: "Barcelona Activa · Télétravail",
-        description: "Contribution à un monorepo en production au sein d'une équipe Scrum. Développement de fonctionnalités 'Code Connect' : intégration de données réelles, flux de création avec routage complexe et alignement des payloads avec des APIs PHP RESTful."
+        description: "Développement frontend pour une application de partage de connaissances suivant les méthodologies Agile (SCRUM). Développement de nouvelles fonctionnalités, intégration d’API et création de composants UI accessibles respectant les bonnes pratiques de base en accessibilité. Mise en œuvre des intégrations frontend–backend, en alignant les payloads de requêtes et de réponses avec des API REST en PHP. Stack : React 19, TypeScript, TailwindCSS, Context API, REST API, Vitest, Docker, Figma."
       },
       {
         period: "2022 - 2025",
