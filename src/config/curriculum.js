@@ -218,9 +218,9 @@ export const english = {
       },
       {
         period: "2020 - 2021",
-        title: "Freelance Web & Digital Consultant",
+        title: "Freelance UX/UI & Web Designer (Marketing Focus)",
         company: "Remote",
-        description: "Spearheaded the e-commerce transformation of krismeraki.com, integrating full WooCommerce functionality with secure payment gateways."
+        description: "Digital Strategy: Engineered lead-generation campaigns on Meta platforms, utilizing A/B testing and data analytics to refine UI/UX based on user behavior. Landing Page Engineering: Developed high-performance, responsive landing pages using Elementor. Focused on optimizing the conversion funnel, improving page load speeds, and ensuring cross-browser compatibility. E-commerce Implementation: Led the full-scale redesign and e-commerce launch for krismeraki.com, integrating WooCommerce with custom payment gateways and a responsive UI. Stack: Elementor & WordPres WooCommerce, HTML/CSS, Meta Ads (Facebook/Instagram)."
       },
       {
         period: "2014 - 2015",
@@ -369,9 +369,9 @@ export const spanish = {
       },
       {
         period: "2020 - 2021",
-        title: "Consultora Freelance en Marketing Digital",
+        title: "Diseñadora UX/UI y Web Freelance (Enfoque en Marketing)",
         company: "Remoto",
-        description: "Lanzamiento de campañas de generación de leads en plataformas Meta. Diseño de landing pages responsive enfocadas en la optimización del túnel de conversión. Lideré la transformación e-commerce de krismeraki.com (WordPress), incluyendo UX, configuración del CMS e integración de pago."
+        description: "Estrategia digital: diseñé campañas de generación de leads en plataformas Meta, utilizando A/B testing y análisis de datos para optimizar la UI/UX según el comportamiento de los usuarios. Diseño de landing pages: desarrollé landing pages responsive de alto rendimiento utilizando Elementor, con enfoque en la optimización del embudo de conversión, la mejora de los tiempos de carga y la compatibilidad entre navegadores. Implementación e-commerce: lideré el rediseño completo y el lanzamiento de e-commerce de krismeraki.com, integrando WooCommerce con pasarelas de pago personalizadas y una interfaz responsive. Stack: Elementor y WordPress, WooCommerce, HTML/CSS, Meta Ads (Facebook/Instagram)."
       },
       {
         period: "2014 - 2015",
@@ -520,9 +520,9 @@ export const french = {
       },
       {
         period: "2020 - 2021",
-        title: "Consultante Indépendante en Marketing Digital",
-        company: "Télétravail",
-        description: "Réalisation de campagnes publicitaires sur les réseaux sociaux. Conception de landing pages responsive axées sur l'optimisation du tunnel de conversion. Pilotage de la transformation e-commerce de krismeraki.com (Wordpress): optimisation visuelle du site et intégration de la solution WooCommerce avec passerelles de paiement sécurisées."
+        title: "Designer UX/UI et Web Freelance (Orientation Marketing)",
+        company: "À distance",
+        description: "Stratégie digitale : conception de campagnes de génération de leads sur les plateformes Meta, en utilisant l'A/B testing et l'analyse de données pour optimiser l'UI/UX selon le comportement des utilisateurs. Conception de landing pages : développement de landing pages responsives et performantes avec Elementor, en mettant l'accent sur l'optimisation du tunnel de conversion, l'amélioration des temps de chargement et la compatibilité entre navigateurs. Mise en place e-commerce : prise en charge de la refonte complète et du lancement e-commerce de krismeraki.com, avec intégration de WooCommerce, de passerelles de paiement personnalisées et d'une interface responsive. Stack : Elementor et WordPress, WooCommerce, HTML/CSS, Meta Ads (Facebook/Instagram)."
       },
       {
         period: "2014 - 2015",
