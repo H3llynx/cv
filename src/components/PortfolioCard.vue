@@ -21,7 +21,7 @@
 
 <style scoped>
 .container {
-    padding: 0.8rem 0 0.8rem 1.5rem;
+    padding: 0.8rem 1rem 0.8rem 1rem;
 }
 
 h1 {

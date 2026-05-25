@@ -34,7 +34,7 @@ export const portfolio = {
       name: "Pixash [In Progress]",
       screenshot: pixashScreenshot,
       code: "https://github.com/H3llynx/pixash",
-      tags: ["Vue 3", "TypeScript", "TailwindCSS", "Firebase", "Mobile First", "UX Design"]
+      tags: ["Vue 3", "Composition API", "TypeScript", "TailwindCSS", "Firebase", "Mobile First"]
     },
     {
       name: "RollerScape",
