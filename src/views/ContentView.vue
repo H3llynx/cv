@@ -1,4 +1,5 @@
 <script setup>
+import { useTheme } from '@/scripts/themeChecker.js';
 import { computed, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import CertificationCard from '../components/CertificationCard.vue';
@@ -7,6 +8,7 @@ import SectionsCv from '../components/SectionsCv.vue';
 import { english, french, portfolio, spanish } from '../config/curriculum.js';
 
 const route = useRoute();
+const { theme } = useTheme();
 
 watch(
   () => route.params.lang,
@@ -43,7 +45,9 @@ const cv = computed(() => {
       <template #heading>{{ portfolio.title }}</template>
       <ul class="slider">
         <PortfolioCard v-for="project in portfolio.content" :key="project.name" class="card">
-          <template #screenshot><img :src="project.screenshot" alt=""></template>
+          <template #screenshot><img
+              :src="theme === 'light' && project.screenshotLight ? project.screenshotLight : project.screenshot"
+              alt=""></template>
           <template #heading>{{ project.name }}</template>
           <template #links>
             <a v-if="project.link" :href="project.link" class="icon-link" target="_blank" tabindex="0"

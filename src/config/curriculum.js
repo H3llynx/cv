@@ -2,9 +2,11 @@ import argosScreenshot from '../assets/screenshots/argos.png';
 import HappyPetScreenshot from '../assets/screenshots/happypet.png';
 import krismerakiScreenshot from '../assets/screenshots/krismeraki.png';
 import pixappScreenshot from '../assets/screenshots/pixapp.png';
+import pixashLight from '../assets/screenshots/pixash-light.png';
 import pixashScreenshot from '../assets/screenshots/pixash.png';
 import pokedexScreenshot from '../assets/screenshots/pokedex.png';
 import relappmidosScreenshot from '../assets/screenshots/relappmidos.png';
+import rollerscapeLight from '../assets/screenshots/rollerscape-light.png';
 import rollerscapeScreenshot from '../assets/screenshots/rollerscape.png';
 import starwarsScreenshot from '../assets/screenshots/starwars.png';
 import swsScreenshot from '../assets/screenshots/sws.png';
@@ -33,12 +35,14 @@ export const portfolio = {
     {
       name: "Pixash [In Progress]",
       screenshot: pixashScreenshot,
+      screenshotLight: pixashLight,
       code: "https://github.com/H3llynx/pixash",
       tags: ["Vue 3", "Composition API", "TypeScript", "TailwindCSS", "Firebase", "Mobile First"]
     },
     {
       name: "RollerScape",
       screenshot: rollerscapeScreenshot,
+      screenshotLight: rollerscapeLight,
       link: "https://h3llynx.github.io/rollerscape",
       code: "https://github.com/H3llynx/rollerscape",
       tags: ["React 19", "TypeScript", "TailwindCSS", "Supabase", "Geolocation API", "Responsive UI"]
