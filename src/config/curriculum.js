@@ -36,6 +36,7 @@ export const portfolio = {
       name: "Pixash [In Progress]",
       screenshot: pixashScreenshot,
       screenshotLight: pixashLight,
+      link: "https://h3llynx.github.io/pixash/",
       code: "https://github.com/H3llynx/pixash",
       tags: ["Vue 3", "Composition API", "TypeScript", "TailwindCSS", "Firebase", "Mobile First"]
     },
