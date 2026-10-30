@@ -1,7 +1,7 @@
 <template>
   <div class="info">
     <h1 class="name">Hélène Teychené</h1>
-    <h2>Front End Developer | UX Designer</h2>
+    <h2>Front-End Developer | Technical Support</h2>
     <ul class="contact">
       <li><a href="https://github.com/H3llynx" target="_blank" tabindex="0" aria-label="github"><i
             class="fa-brands fa-github"></i></a>
